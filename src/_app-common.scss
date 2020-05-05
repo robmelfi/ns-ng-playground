@@ -1,12 +1,26 @@
-// @import "~@nativescript/theme/core";
+// case #1
+// if import only blue theme RadListView in Browse Tab works
 // @import "~@nativescript/theme/blue";
+// but ListView in Home Tab does not display correctly
 
+// case #2
+// if import both core and blue theme RadListView does not work
+// there are white margins around the item in Browse Tab
+@import "~@nativescript/theme/core";
+@import "~@nativescript/theme/blue";
+
+// case #3
+// if import variabled and index for  using custom skin
+// https://docs.nativescript.org/angular/ui/theme#custom-skin-using-variables
+// does not work correctly, there are white margins around the item in Browse Tab
+/*
 @import '~@nativescript/theme/scss/variables';
 @import '~@nativescript/theme/scss/variables/forest';
 
 $complementary: rgb(0, 145, 213);
 
 @import '~@nativescript/theme/index';
+*/
 
 // Place any CSS rules you want to apply on both iOS and Android here.
 // This is where the vast majority of your CSS code goes.
