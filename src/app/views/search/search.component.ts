@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { RouterExtensions } from "nativescript-angular";
 import { FooService } from "./services/foo.service";
-import { Item } from "~/app/shared/ui/item/item.model";
+import { Item } from "~/app/shared/ui/item-list/item.model";
 
 @Component({
     selector: "Search",

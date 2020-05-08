@@ -3,7 +3,7 @@ import { PageRoute } from "nativescript-angular/router";
 import { switchMap } from 'rxjs/operators';
 
 import { DataService } from "../services/data.service";
-import { Item } from "~/app/shared/ui/item/item.model";
+import { Item } from "~/app/shared/ui/item-list/item.model";
 
 @Component({
     selector: 'app-home-detail',

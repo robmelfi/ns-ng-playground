@@ -2,7 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { PageRoute } from "nativescript-angular/router";
 import { switchMap } from 'rxjs/operators';
 
-import { Item } from "~/app/shared/ui/item/item.model";
+import { Item } from "~/app/shared/ui/item-list/item.model";
 import { FooService } from "../services/foo.service";
 
 @Component({

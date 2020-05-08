@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 
 import { DataService } from "./services/data.service";
-import { Item } from "~/app/shared/ui/item/item.model";
+import { Item } from "~/app/shared/ui/item-list/item.model";
 import { RouterExtensions } from "nativescript-angular";
 
 @Component({
